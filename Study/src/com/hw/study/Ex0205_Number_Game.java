@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class Ex0205_Number_Game {
 
 	public static void main(String[] args) {
-		  /* ¼ıÀÚ°ÔÀÓ 20.02.05
-		   * ¼ıÀÚ 5°³¸¦ ¿¬¼ÓÀ¸·Î ¹Ş´Â´Ù.
-		   * ·£´ı¼ö¸¦ ±¸ÇØ¼­ (5ÀÚ¸® °°ÀºÀÚ¸® ¼ıÀÚ ºñ±³
+		  /* ìˆ«ìê²Œì„ 20.02.05
+		   * ìˆ«ì 5ê°œë¥¼ ì—°ì†ìœ¼ë¡œ ë°›ëŠ”ë‹¤.
+		   * ëœë¤ìˆ˜ë¥¼ êµ¬í•´ì„œ (5ìë¦¬ ê°™ì€ìë¦¬ ìˆ«ì ë¹„êµ
 		   *
 		   */
 		  
@@ -21,8 +21,8 @@ public class Ex0205_Number_Game {
 		  
 		  
 		  loop1 : while(true) {
-		   System.out.println("¼ıÀÚ ¸ÂÃß±â ÇÁ·Î±×·¥");
-		   System.out.println("1~9 ¼ıÀÚ 5°³¸¦ ¿¬¼ÓÀ¸·Î ÀÔ·ÂÇØÁÖ¼¼¿ä. (Á¾·á : 0)");
+		   System.out.println("ìˆ«ì ë§ì¶”ê¸° í”„ë¡œê·¸ë¨");
+		   System.out.println("1~9 ìˆ«ì 5ê°œë¥¼ ì—°ì†ìœ¼ë¡œ ì…ë ¥í•´ì£¼ì„¸ìš”. (ì¢…ë£Œ : 0)");
 		   num = scan.nextInt();
 		   
 		   if(num == 0) {
@@ -33,7 +33,7 @@ public class Ex0205_Number_Game {
 		   
 		   
 		   for (int i = 1; i <=5; i++) {
-		    ran += (int)(Math.random()*9)+1; //1~9±îÁöÀÇ ¼ıÀÚ¸¦ »Ì´Â´Ù.
+		    ran += (int)(Math.random()*9)+1; //1~9ê¹Œì§€ì˜ ìˆ«ìë¥¼ ë½‘ëŠ”ë‹¤.
 		   }
 		   
 		   for (int i = 0; i <=4; i++) {
@@ -45,28 +45,28 @@ public class Ex0205_Number_Game {
 		   
 		   switch (count) {
 		   case 1:
-		    System.out.println("»ÌÀº ¼ö :"+num2);
-		    System.out.println("·£´ı ¼ö :"+ran);
-		    System.out.println(count+"°³ ÀÏÄ¡ ***ÃàÇÏÇÕ´Ï´Ù 1¸¸¿ø ´çÃ· *****");
+		    System.out.println("ë½‘ì€ ìˆ˜ :"+num2);
+		    System.out.println("ëœë¤ ìˆ˜ :"+ran);
+		    System.out.println(count+"ê°œ ì¼ì¹˜ ***ì¶•í•˜í•©ë‹ˆë‹¤ 1ë§Œì› ë‹¹ì²¨ *****");
 		    System.out.println("------------------------------------");
 		    break;
 		   case 2:
-		    System.out.println("»ÌÀº ¼ö :"+num2);
-		    System.out.println("·£´ı ¼ö :"+ran);
-		    System.out.println(count+"°³ ÀÏÄ¡ ***ÃàÇÏÇÕ´Ï´Ù 10¸¸¿ø ´çÃ· *****");
+		    System.out.println("ë½‘ì€ ìˆ˜ :"+num2);
+		    System.out.println("ëœë¤ ìˆ˜ :"+ran);
+		    System.out.println(count+"ê°œ ì¼ì¹˜ ***ì¶•í•˜í•©ë‹ˆë‹¤ 10ë§Œì› ë‹¹ì²¨ *****");
 		    System.out.println("------------------------------------");
 		    break;
 		   case 3:
-		    System.out.println("»ÌÀº ¼ö :"+num2);
-		    System.out.println("·£´ı ¼ö :"+ran);
-		    System.out.println(count+"°³ ÀÏÄ¡ ***ÃàÇÏÇÕ´Ï´Ù 100¸¸¿ø ´çÃ· *****");
+		    System.out.println("ë½‘ì€ ìˆ˜ :"+num2);
+		    System.out.println("ëœë¤ ìˆ˜ :"+ran);
+		    System.out.println(count+"ê°œ ì¼ì¹˜ ***ì¶•í•˜í•©ë‹ˆë‹¤ 100ë§Œì› ë‹¹ì²¨ *****");
 		    System.out.println("------------------------------------");
 		    break;
 		   }
 		   
 		   
 		  }
-		  System.out.println("½Ã½ºÅÛÀ» Á¾·áÇÕ´Ï´Ù.");
+		  System.out.println("ì‹œìŠ¤í…œì„ ì¢…ë£Œí•©ë‹ˆë‹¤.");
 		
 		 
 		 
