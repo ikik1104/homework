@@ -68,7 +68,8 @@ public class Ex0205_Number_Game {
 		  }
 		  System.out.println("시스템을 종료합니다.");
 		
-		 
-		 
-		 }
-		}
+
+		  
+	}
+}
+
